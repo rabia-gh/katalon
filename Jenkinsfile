@@ -13,7 +13,7 @@ pipeline {
         }
        stage ('katalon tests') {
            steps {
-        build job: 'test_katalon'
+        build job: 'katalon'
     }
 }
     }
